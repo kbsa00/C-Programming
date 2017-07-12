@@ -30,12 +30,12 @@ void bubbleSort(int number[], int num){
 
     int temp;
 
-  for (int k = 0; k < num; k++){
-      for (int i = 1; i < num; i++) {
-          if(number[i - 1] > number[i]){
-              temp = number[i - 1];
-              number[i - 1] = number[i];
-              number[i] = temp;
+  for (int i = 0; i < num; i++){
+      for (int k = 1; k < num; k++) {
+          if(number[k - 1] > number[k]){
+              temp = number[k - 1];
+              number[k - 1] = number[k];
+              number[k] = temp;
           }
       }
   }
@@ -43,8 +43,8 @@ void bubbleSort(int number[], int num){
 
     puts("\nYou array after the numbers being sorted ascending");
 
-    for (int k = 0; k < num; k++){
-        printf(" %d", number[k]);
+    for (int i = 0; i < num; i++){
+        printf(" %d", number[i]);
     }
 }
 
