@@ -1,3 +1,0 @@
-/home/khalid/Desktop/Tempratur/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/khalid/Desktop/Tempratur/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/khalid/Desktop/Tempratur/cmake-build-debug/CMakeFiles/Tempratur.dir

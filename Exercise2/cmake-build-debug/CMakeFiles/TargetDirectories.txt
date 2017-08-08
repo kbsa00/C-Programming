@@ -1,3 +1,0 @@
-/home/khalid/Desktop/Exercise2/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/khalid/Desktop/Exercise2/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/khalid/Desktop/Exercise2/cmake-build-debug/CMakeFiles/Exercise2.dir
