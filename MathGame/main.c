@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <time.h>
 
 int main() {
 
@@ -14,7 +15,7 @@ int main() {
    printf("Are you ready to play a math game %s? \n", name);
 
    char answer[1] = {'y'};
-
+	srand(time(NULL)); 
     while(answer[0] == 'y'){
         try++;
         int first = (rand() % 10) + 1;
