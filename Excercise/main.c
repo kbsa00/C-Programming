@@ -419,6 +419,42 @@ void reverseCase() {
         }
 
     }
+	/*
+	 *Sorting a numbers using Dynamic Allocation Memory.. 
+	 *
+	 */ 	
+	void sortinOnPointers(){
+   	 int size;
+   	 int * array;
+   	 printf("Input the size of the array: ");
+   	 scanf("%d", &size);
+   	 array = (int *) calloc(size, sizeof (int));
+
+   	 printf("Input the elements in the array.\n");
+   	 for(int i = 0; i < size; i++){
+   	  printf("Element %d - ", i);
+     	  scanf("%d", &array[i]);
+    }
+
+    	int temp;
+    	for(int i = 0; i < size; i++){
+     	  temp = 0;
+      	  for(int j = 1; j < size; j++){
+
+       	     if(*(array+j-1) > *(array+j)){
+                temp = *(array+j);
+                *(array+j) = *(array+j-1);
+                *(array+j-1) = temp;
+            }
+        }
+    }
+
+
+    for(int i = 0; i < size; i++){
+        printf("%d ", *(array+i));
+    }
+
+}
 
 
 
@@ -431,8 +467,7 @@ void reverseCase() {
 
 
 int main() {
-    delete();
-    // Eg e på oppgave 13. (String)
+    
 
     return 0;
 }
