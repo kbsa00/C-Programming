@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/khalid/Desktop/StringFunctions/main.c
+stdlib.h
+-
+time.h
+-
+ctype.h
+-
+memory.h
+-
+string.h
+-
+stdio.h
+-
+

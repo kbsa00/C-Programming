@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/StringFunctions.dir/main.c.o  -o StringFunctions 
